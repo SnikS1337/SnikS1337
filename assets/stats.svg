@@ -2,50 +2,50 @@
   <title id="title">GitHub statistics</title>
   <desc id="desc">6 stars, 826 commits, 6 pull requests, 3 issues and 865 contributions.</desc>
   <rect width="840" height="200" rx="16" fill="#0D1117" stroke="#30363D"/>
-  <text x="28" y="34" fill="#C9D1D9" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="16" font-weight="500">Статистика GitHub</text>
+  <text x="28" y="34" fill="#C9D1D9" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="16" font-weight="500">GitHub Stats</text>
   <text x="28" y="54" fill="#8B949E" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="12">SnikS1337</text>
 
   <g stroke="#21262D">
-    <path d="M168 76V172"/>
-    <path d="M336 76V172"/>
-    <path d="M504 76V172"/>
-    <path d="M672 76V172"/>
+    <path d="M168 76V180"/>
+    <path d="M336 76V180"/>
+    <path d="M504 76V180"/>
+    <path d="M672 76V180"/>
   </g>
 
   <g>
-    <path d="M84 92L89 104L102 105L92 114L95 127L84 120L73 127L76 114L66 105L79 104L84 92Z" stroke="#F59E0B" stroke-width="1.8" stroke-linejoin="round"/>
-    <text x="84" y="148" text-anchor="middle" fill="#F0F6FC" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="30" font-weight="500">6</text>
-    <text x="84" y="170" text-anchor="middle" fill="#8B949E" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="12">Звёзд</text>
+    <path d="M84 76L89 88L102 89L92 98L95 111L84 104L73 111L76 98L66 89L79 88L84 76Z" stroke="#F59E0B" stroke-width="1.8" stroke-linejoin="round"/>
+    <text x="84" y="152" text-anchor="middle" fill="#F0F6FC" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="30" font-weight="500">6</text>
+    <text x="84" y="176" text-anchor="middle" fill="#8B949E" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="12">Stars</text>
   </g>
 
   <g transform="translate(168 0)">
-    <circle cx="68" cy="100" r="4.5" stroke="#A78BFA" stroke-width="1.8"/>
-    <circle cx="100" cy="100" r="4.5" stroke="#A78BFA" stroke-width="1.8"/>
-    <circle cx="84" cy="120" r="4.5" stroke="#A78BFA" stroke-width="1.8"/>
-    <path d="M68 100H100M84 100V120" stroke="#A78BFA" stroke-width="1.8" stroke-linecap="round"/>
-    <text x="84" y="148" text-anchor="middle" fill="#F0F6FC" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="30" font-weight="500">826</text>
-    <text x="84" y="170" text-anchor="middle" fill="#8B949E" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="12">Коммитов</text>
+    <circle cx="68" cy="84" r="4.5" stroke="#A78BFA" stroke-width="1.8"/>
+    <circle cx="100" cy="84" r="4.5" stroke="#A78BFA" stroke-width="1.8"/>
+    <circle cx="84" cy="104" r="4.5" stroke="#A78BFA" stroke-width="1.8"/>
+    <path d="M68 84H100M84 84V104" stroke="#A78BFA" stroke-width="1.8" stroke-linecap="round"/>
+    <text x="84" y="152" text-anchor="middle" fill="#F0F6FC" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="30" font-weight="500">826</text>
+    <text x="84" y="176" text-anchor="middle" fill="#8B949E" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="12">Commits</text>
   </g>
 
   <g transform="translate(336 0)">
-    <circle cx="72" cy="96" r="4" stroke="#22D3EE" stroke-width="1.8"/>
-    <circle cx="72" cy="120" r="4" stroke="#22D3EE" stroke-width="1.8"/>
-    <circle cx="100" cy="108" r="4" stroke="#22D3EE" stroke-width="1.8"/>
-    <path d="M72 100V116M72 110C72 102 100 116 100 112" stroke="#22D3EE" stroke-width="1.8" stroke-linecap="round"/>
-    <text x="84" y="148" text-anchor="middle" fill="#F0F6FC" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="30" font-weight="500">6</text>
-    <text x="84" y="170" text-anchor="middle" fill="#8B949E" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="12">Pull requests</text>
+    <circle cx="70" cy="80" r="4" stroke="#22D3EE" stroke-width="1.8"/>
+    <circle cx="70" cy="104" r="4" stroke="#22D3EE" stroke-width="1.8"/>
+    <circle cx="98" cy="92" r="4" stroke="#22D3EE" stroke-width="1.8"/>
+    <path d="M70 84V100M70 94C70 86 98 100 98 96" stroke="#22D3EE" stroke-width="1.8" stroke-linecap="round"/>
+    <text x="84" y="152" text-anchor="middle" fill="#F0F6FC" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="30" font-weight="500">6</text>
+    <text x="84" y="176" text-anchor="middle" fill="#8B949E" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="12">Pull Requests</text>
   </g>
 
   <g transform="translate(504 0)">
-    <circle cx="84" cy="108" r="14" stroke="#F472B6" stroke-width="1.8"/>
-    <path d="M84 101V115M77 108H91" stroke="#F472B6" stroke-width="1.8" stroke-linecap="round"/>
-    <text x="84" y="148" text-anchor="middle" fill="#F0F6FC" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="30" font-weight="500">3</text>
-    <text x="84" y="170" text-anchor="middle" fill="#8B949E" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="12">Issues</text>
+    <circle cx="84" cy="92" r="14" stroke="#F472B6" stroke-width="1.8"/>
+    <path d="M84 85V99M77 92H91" stroke="#F472B6" stroke-width="1.8" stroke-linecap="round"/>
+    <text x="84" y="152" text-anchor="middle" fill="#F0F6FC" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="30" font-weight="500">3</text>
+    <text x="84" y="176" text-anchor="middle" fill="#8B949E" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="12">Issues</text>
   </g>
 
   <g transform="translate(672 0)">
-    <path d="M62 112H72L78 98L86 120L94 104L102 112H108" stroke="#34D399" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-    <text x="84" y="148" text-anchor="middle" fill="#F0F6FC" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="30" font-weight="500">865</text>
-    <text x="84" y="170" text-anchor="middle" fill="#8B949E" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="12">Контрибуций</text>
+    <path d="M60 96H70L76 82L84 104L92 88L100 96H108" stroke="#34D399" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="84" y="152" text-anchor="middle" fill="#F0F6FC" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="30" font-weight="500">865</text>
+    <text x="84" y="176" text-anchor="middle" fill="#8B949E" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="12">Contributions</text>
   </g>
 </svg>
