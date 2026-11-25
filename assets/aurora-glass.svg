@@ -1,0 +1,51 @@
+<svg width="1280" height="420" viewBox="0 0 1280 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Aurora glass</title>
+  <desc id="desc">A single violet and cyan light ribbon passing through a dark glass panel.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1280" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0D1117"/>
+      <stop offset="0.24" stop-color="#11102A"/>
+      <stop offset="0.72" stop-color="#0B1324"/>
+      <stop offset="1" stop-color="#0D1117"/>
+    </linearGradient>
+    <linearGradient id="wave" x1="150" y1="290" x2="1130" y2="180" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A78BFA"/>
+      <stop offset="0.52" stop-color="#67E8F9"/>
+      <stop offset="1" stop-color="#7DD3FC"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="150" y1="64" x2="1110" y2="356" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF" stop-opacity="0.095"/>
+      <stop offset="0.52" stop-color="#FFFFFF" stop-opacity="0.025"/>
+      <stop offset="1" stop-color="#A78BFA" stop-opacity="0.055"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="120" y1="56" x2="1160" y2="364" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF" stop-opacity="0.3"/>
+      <stop offset="0.46" stop-color="#A78BFA" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#67E8F9" stop-opacity="0.22"/>
+    </linearGradient>
+    <linearGradient id="reflection" x1="220" y1="58" x2="930" y2="330" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.1"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="softGlow" x="-20%" y="-80%" width="140%" height="260%">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+    <clipPath id="panelClip">
+      <rect x="96" y="56" width="1088" height="308" rx="40"/>
+    </clipPath>
+  </defs>
+
+  <rect width="1280" height="420" rx="28" fill="url(#background)"/>
+  <rect x="72" y="40" width="1136" height="340" rx="48" fill="#0B0E22" fill-opacity="0.28" stroke="#A78BFA" stroke-opacity="0.08"/>
+  <rect x="96" y="56" width="1088" height="308" rx="40" fill="url(#glass)" stroke="url(#edge)" stroke-width="1.2"/>
+
+  <g clip-path="url(#panelClip)">
+    <path d="M40 304C238 126 402 372 610 232C818 92 974 318 1240 170" stroke="url(#wave)" stroke-width="54" stroke-linecap="round" opacity="0.2" filter="url(#softGlow)"/>
+    <path d="M40 304C238 126 402 372 610 232C818 92 974 318 1240 170" stroke="url(#wave)" stroke-width="2.2" stroke-linecap="round" opacity="0.94"/>
+    <path d="M120 58L1110 360" stroke="url(#reflection)" stroke-width="84" opacity="0.22"/>
+    <path d="M136 78H1144" stroke="#FFFFFF" stroke-opacity="0.1"/>
+  </g>
+
+  <rect x="96.6" y="56.6" width="1086.8" height="306.8" rx="39.4" stroke="#FFFFFF" stroke-opacity="0.05"/>
+</svg>
